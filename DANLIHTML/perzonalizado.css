@@ -1,0 +1,28 @@
+.dp-movil{
+    display: none!important;
+}
+.dp-lg{
+    display: block;
+}
+#menuStyky{
+position:fixed;
+top: 0;
+z-index: 1;
+border-bottom: 2px solid #0231ff;
+backdrop-filter: saturate(200%) blur(30px);
+background-color: hsla(86, 64%, 59%, 0.65)!important;
+box-shadow: rgba(0,0,0,0,0.5) 0 3px 12px 1px;
+}
+@media only screen and (max-width: 600px){
+    .dp-movil{
+    display: block!important;;
+    }
+  #carouselExampleIndicators{
+    height: 480px;
+    background: #ff0000;
+  }
+  .dp-lg{
+    display: none!important;
+  }
+}
+
